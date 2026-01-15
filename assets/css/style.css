@@ -36,6 +36,170 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+
+/*-------------- new start ------------------------------------------*/
+
+/* .gif-preview {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+} */
+
+/* .gif-preview {
+  width: 100%;
+  height: 200px;            
+  object-fit: contain;      
+  background-color: #f8f9fa; 
+  border-radius: 6px;
+} */
+
+/* .tool-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.tool-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.tool-label h4 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #1b7f6b; 
+  text-align: center;
+} */
+
+/* .render-row {
+  align-items: center;
+}
+
+.render-row:not(:last-child) {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e6ecea;
+} */
+
+
+
+
+/* .portfolio-wrap {
+  height: 240px;
+}
+
+.gif-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.tool-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.tool-icon {
+  width: 40px;
+  max-height: 40px;
+  object-fit: contain;
+}
+
+.tool-label h3 {
+  margin: 6px 0 0;
+  font-weight: 800;
+  font-size: 1.85rem;
+  color: #1b7f6b;
+} */
+
+
+/* ================= Rendering Layout ================= */
+
+.render-row {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 1.2rem; /* tight spacing between rows */
+}
+
+/* Tool label column */
+.render-tool {
+  width: 90px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.tool-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.tool-title {
+  margin-top: 6px;
+  font-weight: 800;
+  font-size: 1.45rem;
+  color: #196674; /* unified color */
+}
+
+/* Content column */
+.render-content {
+  flex: 1;
+}
+
+/* GIF container */
+.portfolio-wrap2 {
+  height: 260px;
+}
+
+.gif-preview {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+   object-fit: cover;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+/* style="background-color: #109188; color: white; padding: 6px 12px; border: none; border-radius: 5px;" */
+/* Footer under GIF */
+.render-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+/* Unified title + button styling */
+.render-item-title {
+  color: #257245;
+  font-weight: 600;
+}
+
+.render-btn {
+  background-color: #109188;
+  border-color: #0d6efd;
+  color: #ffffff;
+}
+
+.render-btn:hover {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
+
+
+
+/*--------------------- new end -----------------------------------*/
+
+
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
